@@ -76,4 +76,4 @@ build/
 .parcel-cache
 
 # PDF outputs (if you're generating PDFs)
-*.pdf
+package-lock.json
