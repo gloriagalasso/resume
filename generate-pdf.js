@@ -33,7 +33,7 @@ const path = require("path");
 
     // Define the paths for output files
     const pdfFilePath = "cv.pdf";
-    const htmlFilePath = "cv-standalone.html";
+    const htmlFilePath = "index.html";
 
     // Generate the PDF
     console.log("Generating PDF...");
