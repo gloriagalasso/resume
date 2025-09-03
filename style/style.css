@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
+::-moz-selection {
+  color: black;
+  background: white;
+}
+::selection {
+  color: black;
+  background: white;
+}
+
+.bio h2 {
+  color: #FF0000;
+}
+
+.social h2 {
+  color: white;
+}
+
+body {
+  background: black;
+}
+body * {
+  font-family: "Nunito", sans-serif;
+}
+body header {
+  padding-top: 2rem;
+}
+body header img {
+  border-radius: 10px;
+}
+body header h1 {
+  text-transform: uppercase;
+}
+body header h1, body header h2, body header p {
+  color: white;
+}
+body header h2 {
+  color: #A28EF4;
+  font-size: 16px;
+}
+body header a, body header address {
+  color: white;
+}
+body header address, body header p {
+  margin-bottom: 0;
+}
+body main {
+  padding: 6rem 0;
+  position: relative;
+}
+body main #paw {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+body main .social ul {
+  padding-left: 0;
+  list-style: none;
+}
+body main .experiences {
+  padding-top: 4rem;
+}
+body main .experiences h2 {
+  color: white;
+}
+body main .experiences h3 {
+  color: white;
+  font-size: 15px;
+}
+body main .bio h2, body main .social h2, body main .experiences h2 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 6px;
+  font-size: 20px;
+}
+body main .bio h3:nth-of-type(1), body main .social h3:nth-of-type(1), body main .experiences h3:nth-of-type(1) {
+  text-transform: uppercase;
+}
+body main .bio h3:nth-of-type(2), body main .social h3:nth-of-type(2), body main .experiences h3:nth-of-type(2) {
+  text-transform: uppercase;
+}
+body main .bio h3:nth-of-type(3), body main .social h3:nth-of-type(3), body main .experiences h3:nth-of-type(3) {
+  margin-bottom: 2rem;
+}
+body main .bio .logo, body main .social .logo, body main .experiences .logo {
+  margin-bottom: 1rem;
+}
+body main .bio .exp, body main .social .exp, body main .experiences .exp {
+  margin-bottom: 4rem;
+}
+body main .bio p, body main .bio li, body main .bio a, body main .social p, body main .social li, body main .social a, body main .experiences p, body main .experiences li, body main .experiences a {
+  color: #CCCCCC;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+
+::selection {
+    color: black;
+    background: white;
+}
+
+.bio {
+    h2 {
+        color: #FF0000;
+    }
+}
+
+.social {
+    h2 {
+        color: white;
+    }
+}
+
+body {
+    background: black;
+    * {
+        font-family: 'Nunito', sans-serif;
+    }
+    header {
+        padding-top: 2rem;
+        img {
+            border-radius: 10px;
+        }
+        h1 {
+            text-transform: uppercase;
+        }
+        h1, h2, p {
+            color: white;
+        }
+        h2 {
+            color: #A28EF4;
+            font-size: 16px;
+        }
+        a, address {
+            color: white;
+        }
+        address, p {
+            margin-bottom: 0;
+        }
+    }
+    main {
+        padding: 6rem 0;
+        position: relative;
+        #paw {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+        }
+        .social {
+            ul {
+                padding-left: 0;
+                list-style: none;
+            }
+        }
+        .experiences {
+            padding-top: 4rem;
+            h2 {
+                color: white;
+            }
+            h3 {
+                color: white;
+                font-size: 15px;
+            }
+        }
+        .bio, .social, .experiences {
+            h2 {
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 6px;
+                font-size: 20px;
+            }
+            h3 {
+                @for $i from 1 through 2 {
+                    &:nth-of-type(#{$i}) {
+                      text-transform: uppercase;
+                    }
+                  }
+                  &:nth-of-type(3) {
+                    margin-bottom: 2rem;
+                  }
+            }
+            .logo {
+                margin-bottom: 1rem;
+            }
+            .exp {
+                margin-bottom: 4rem;
+            }
+            p,li,a {
+                color: #CCCCCC;
+            }
+        }
+    }
+}
