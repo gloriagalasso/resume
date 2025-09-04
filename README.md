@@ -1,1 +1,1 @@
-deploy at [(https://gloriagalasso.github.io/resume/)]
+deploy at https://gloriagalasso.github.io/resume/
