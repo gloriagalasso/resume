@@ -33,17 +33,18 @@
                                 <a :href="summary.social?.github" target="_blank" class="text-gray-900 hover:text-fuchsia-900">
                                     <i class="fab fa-github fa-1x" aria-hidden="true"></i>
                                 </a>
-                                <a :href="summary.social?.twitter" target="_blank" class="text-sky-400 hover:text-sky-700">
-                                    <i class="fab fa-twitter fa-1x" aria-hidden="true"></i>
-                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="flex flex-col space-y-1">
                     <h2 class="text-2xl font-bold pb-1">Contact</h2>
-                    <p><strong>Phone:</strong> 🇮🇹 <a :href="'tel:' + summary['phone-it']" class="text-[#4e2df3] hover:underline">{{ summary['phone-it'] }}</a> 🇧🇪 <a :href="'tel:' + summary['phone-be']" class="text-[#4e2df3] hover:underline">{{ summary['phone-be'] }}</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:marco@tech-paw.com" class="text-[#4e2df3] hover:underline">{{ summary.email }}</a></p>
+                    <p><strong>Phone: </strong> 
+                        <span v-for="phone in summary.phones" :key="phone.country" class="mr-2">
+                            {{ phone.flag }} <a v-if="phone.number" :href="'tel:' + phone.number" class="text-[#4e2df3] hover:underline">{{ phone.number }}</a>
+                        </span>
+                    </p>
+                    <p><strong>Email:</strong> <a :href="'mailto:' + summary.email" class="text-[#4e2df3] hover:underline">{{ summary.email }}</a></p>
                     <p><strong>LinkedIn:</strong> <a :href="summary.social?.linkedin" target="_blank" rel="noopener noreferrer" class="text-[#4e2df3] hover:underline">{{ summary.social?.linkedin }}</a></p>
                     <p><strong>Github:</strong> <a :href="summary.social?.github" target="_blank" rel="noopener noreferrer" class="text-[#4e2df3] hover:underline">{{ summary.social?.github }}</a></p>
                     </p>
@@ -56,7 +57,7 @@
                 <div class="flex flex-col space-y-2">
                     <h2 class="text-2xl font-bold pb-2 border-b">Summary</h2>
                     <p>{{ summary.description }}</p>
-                     <p class="mt-4"><strong>Website -> </strong><a :href="summary.website" target="_blank" rel="noopener noreferrer" class="text-[#4e2df3] hover:underline"> {{summary.website}}</a> <strong>Portfolio -></strong> <a :href="summary.portfolio" target="_blank" rel="noopener noreferrer" class="text-[#4e2df3] hover:underline">{{summary.portfolio}}</a></p>
+                    
                 </div>
             </div>
         </section>
@@ -148,7 +149,7 @@
                 <div v-for="entry in community" :key="entry.role + entry.organization" class="community-entry mb-6">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ entry.role }}</h3>
                     <div class="flex items-center gap-6 bg-gray-50 p-4 mb-6 rounded-lg">
-                        <img :src="entry.logo" alt="Logo" class="object-contain rounded" />
+                        <img :src="entry.logo" alt="Logo" class="w-20 h-20 object-contain p-2 rounded" />
                         <div class="flex-1">
                             <p class="text-gray-700">
                                 <strong>{{ entry.organization }}</strong>

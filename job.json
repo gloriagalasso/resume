@@ -1,258 +1,93 @@
 {
     "Work Experience": [
         {
-            "time": "06-2023 - Current",
+            "time": "2025 - Present",
             "city": "Bruxelles",
             "country": "Belgium",
-            "role": "Full Stack Developer & CEO",
-            "company": "Tech Paw",
-            "website": "https://www.tech-paw.com",
-            "logo": "https://techpawdev-gpcx6wyews.live-website.com/wp-content/themes/isabeltheme/assets/svgs/tech-paw-purple-2.svg",
-            "description": "Founded Tech Paw SRL in 2023 to deliver full stack development and strategic consulting services across Europe. Acting as both developer and technical advisor, independently building scalable Content Management System, Customer relationship management platforms, and web platforms tailored to client needs. Businesses advisor on infrastructure optimization, deployment automation, and cross-platform integration. Ensured delivery excellence by developing reusable components, creating technical documentation, and mentoring teams on implementation best practices.",
+            "role": "Project coordinator",
+            "company": "Gopa.com",
+            "website": "https://gopacom.eu/",
+            "logo": "https://gopacom.eu/wp-content/themes/project/assets/img/svg/logo_tagline_black.svg",
+            "description": "",
             "responsibilities": [
-                "Independently develop and deploy client-facing web apps using different platforms leveraging modern PHP, Javascript and Python frameworks, enhancing clients' web presence across multiple aspects including SEO, UX/UI design, performance, security, and modernization.",
-                "Provide strategic direction on selecting optimal hosting environments based on scalability, performance, and budget.",
-                "Facilitate clear communication with clients, stakeholders, and product owners to align development efforts with business goals.",
-                "Collaborate with designers to ensure UI/UX guidelines are effectively implemented in the application’s functionality.",
-                "Manage project budgets efficiently to maximize return on investment and resource allocation.",
-                "Establish and maintain rational project timelines to ensure on-time delivery and scope control."
+                "Assist in coordinating cross-functional teams for language technology projects",
+                "Support the development and implementation of NLP solutions",
+                "Contribute to project documentation and technical specifications",
+                "Facilitate communication between technical teams and stakeholders",
+                "Monitor project timelines and deliverables",
+                "Prepare project status reports and presentations",
+                "Assist in resource allocation and schedule management"
             ],
-            "tech_stack": {
-                "Stack": "LAMP, JAM, MEVN, MERN",
-                "PHP": "Wordpress, Laravel, Drupal, Vanilla",
-                "JavaScript": "Vue.js, React.js, Node.js, Express.js, Next.js, Nuxt.js, Typescript, Stapi.js",
-                "Python": "Flask, FastApi, Django, Vanilla",
-                "Databases": "MySQL, MongoDB, PostgreSQL, SQLite",
-                "Cloud": "AWS, GCP",
-                "Hosting": "Shared Hosting, VPS Management",
-                "Tools": "Git/GitLab, Docker (basics), Jira, Monday.com",
-                "Design": "Figma, Adobe, Boostrap, Tailwind, Vite, Responsive Design, SCSS"
+            "project_competencies": {
+                "Project Management": ["Agile methodologies", "Scrum", "Project planning", "Risk management"],
+                "Technical Understanding": ["NLP", "Computational Linguistics", "Machine Learning basics"],
+                "Tools": ["JIRA", "Confluence", "MS Project", "Git"],
+                "Soft Skills": ["Team coordination", "Stakeholder communication", "Problem-solving"]
             },
-            "key_skills": "9 years as a full stack developer with experience in managing web departments and leading projects."
-        },
-        {
-            "time": "08-2020 - 01-2025",
-            "city": "Bruxelles",
-            "country": "Belgium",
-            "role": "Full Stack Engineer",
-            "company": "Isabel",
-            "website": "https://www.isabelgroup.com",
-            "logo": "/images/isabel.svg",
-            "description": "Led web development projects supporting Isabel Group’s digital and marketing strategies. Collaborated closely with cross-functional teams including Designers, DevOps, SecOps, and Product Owners to ensure high-performance, secure, and user-centric solutions. Independently delivered scalable websites and applications integrated with Content Management Systems, Customer Relationship Management platforms, and third-party APIs. Oversaw deployments and content-rich platforms focused on financial and accounting services, consistently aligning with stakeholder goals and industry compliance standards.",
-            "responsibilities": [
-                "Expert in PHP frameworks (Wordpress, Laravel), with strong proficiency in JavaScript libraries for front-end development (Vue and React as SPA).",
-                "Skilled in designing and implementing RESTful APIs, ensuring efficient system communication and data exchange.",
-                "Experienced in customizing CMS platforms (WordPress, Drupal), CRMs systems for enhanced functionality (Hubpost, Microsoft Dynamics) and analytics tools (google analytics and matomo).",
-                "Proficient in SQL and NoSQL databases, including MongoDB and MySQL, enabling robust data handling and optimization.",
-                "Proficient in tools such as Jira, Monday and Slack for efficient task and project management."
-            ],
-            "tech_stack": {
-                "Stack": "LAMP, JAM, MEVN",
-                "PHP": "Wordpress, Laravel, Vanilla",
-                "JavaScript": "Vue.js, React.js, Node.js, Express.js, Next.js, Strapi.js, jQuery",
-                "Python": "Webscraping, Flask, Vanilla",
-                "Databases": "MySQL, MongoDB, SQLite",
-                "Cloud": "AWS, GCP",
-                "Tools": "Git/GitLab, Docker, Jira, Monday.com",
-                "Design": "Figma, Adobe, Boostrap, Responsive Design, SCSS"
-            },
-            "key_skills": "Strong leadership in managing the web development technical teams, with a close collaboration with SecOps and DevOps to architect and maintain secure, scalable cloud infrastructures on AWS and Google Cloud."
-        },
-        {
-            "time": "10-2018 - 09-2019",
-            "country": "Canada",
-            "city": "Montreal, Quebec",
-            "role": "Full Stack Developer",
-            "company": "Higher Education Marketing",
-            "website": "https://www.higher-education-marketing.com/",
-            "logo": "/images/hem.svg",
-            "description": "Intermediate Full Stack Developer specialised in Content Management Systems and Customer Relationship Management platforms development, integration, and management for a company dedicated to recruiting international and local students for universities, colleges, and English language schools across Canada.",
-            "responsibilities": [
-                "Develop and manage websites for diverse clients, including universities, colleges, language schools, and business partners, as well as oversee the company’s own website.",
-                "Utilize platforms such as WordPress and landing pages to deliver customized, high-performance web solutions.",
-                "Configure, manage, and integrate Customer Relationship Management platforms (HubSpot, Mautic, Campus Login, Nova) and their APIs to support effective client interaction and data management.",
-                "Design custom themes and plugins to enhance website performance and streamline client interactions.",
-                "Coordinate project tracking with teams and clients, establishing protocols to optimize collaboration and project outcomes."
-            ],
-            "tech_stack": {
-                "Stack": "LAMP",
-                "PHP": "Wordpress, Drupal, Vanilla",
-                "JavaScript": "Vanilla, jQuery, React.js, Webpack.js, Grunt.js",
-                "Databases": "MySQL",
-                "Cloud": "AWS",
-                "CRM platform": "Hubspot, Mautic, Campus Login, Nova",
-                "Tools": "AWS, Agile, Smartsheet",
-                "Design": "Adobe, Boostrap, Responsive Design, SCSS"
-            },
-            "key_skills": "Extensive experience in customizing Content Management Systems and Customer Relationship Management platforms systems to enhance client and business operations. Demonstrated expertise in designing and implementing themes, plugins, modules, and API integrations, with a strong focus on optimizing performance and delivering scalable solutions."
-        },
-        {
-            "time": "01-2018 - 06-2018",
-            "city": "Toronto, Ontario",
-            "country": "Canada",
-            "role": "Full Stack Developer",
-            "company": "Oliver’s Learning (Oliver Solutions)",
-            "website": "https://www.oliverslearning.com/",
-            "logo": "https://techpawdev-gpcx6wyews.live-website.com/wp-content/themes/isabeltheme/assets/svgs/oliver.svg",
-            "description": "Full Stack Developer responsible for the development and maintenance of a multi-site learning platform at Oliver Solutions, a premier Canadian provider of regulator-approved education and exam preparation for financial professionals.",
-            "responsibilities": [
-                "Maintaining and enhancing a multi-site web portal built on ExpressionEngine, ensuring consistent and seamless user experiences across multiple domains.",
-                "Managing front-end and back-end processes for clients and administrators, improving usability and system performance.",
-                "Developing custom plugins, modules, and add-ons using PHP, JavaScript, and MySQL, utilizing frameworks like CodeIgniter or Laravel to extend platform functionality.",
-                "Implementing the MVC design pattern to create clean, modular, and scalable code architecture.",
-                "Creating and optimizing front-end templates to deliver engaging and interactive user interfaces."
-            ],
-            "tech_stack": {
-                "Markup": "HTML, Markdown",
-                "PHP": "ExpressionEngine, CodeIgniter, Laravel",
-                "JavaScript": "Vanilla, jQuery",
-                "Databases": "MySQL",
-                "Tools": "Git, Bitbucket",
-                "Design": "Adobe, Boostrap, Responsive Design, SCSS"
-            },
-            "key_skills": "Strong proficiency in maintaining multi-site Content Management Systems portals, custom module development, and applying MVC/SOLID architecture principles to ensure a robust, scalable codebase for a high-performing, client-focused educational platform."
-        },
-        {
-            "time": "04-2016 - 01-2018",
-            "city": "Barrie, Ontario",
-            "country": "Canada",
-            "role": "Full Stack Developer",
-            "company": "Larche Digital",
-            "website": "https://larche.com/",
-            "logo": "https://techpawdev-gpcx6wyews.live-website.com/wp-content/themes/isabeltheme/assets/svgs/larche.svg",
-            "description": "Independent Junior Web Developer for a digital agency in Barrie specializing in advertising, design, marketing, and web solutions, recognized for managing popular radio portals across Canada.",
-            "responsibilities": [
-                "Coordinating website timing, setup, and launches in WordPress environments across various hosting types, including shared hosting, cloud, and VPS.",
-                "Developing custom WordPress solutions from scratch or through customization, covering themes, layouts, plugins, APIs, and database queries.",
-                "Providing ongoing maintenance, including debugging and optimization for high-profile radio websites like 104.1 The Dock, 92.3 The Dock, Kicx 91.7, and Kicx 106.",
-                "Implementing Google Analytics, Google Console, and social media analytics (Facebook, Twitter, Instagram) for comprehensive site tracking and SEO enhancement.",
-                "Performing essential maintenance tasks, including migrations, backups, security enhancements, and user authentication."
-            ],
-            "tech_stack": {
-                "Stack": "LAMP",
-                "Markup": "HTML, Markdown",
-                "PHP": "WordPress, Vanilla",
-                "JavaScript": "Vanilla, jQuery",
-                "Databases": "MySQL",
-                "Tools": "Asana",
-                "Design": "Adobe, Boostrap, Responsive Design, SCSS",
-                "Cache": "Cloudfront, cloudflar"
-            },
-            "key_skills": "Expertise in WordPress site launches and customization, website analytics and SEO, and ensuring reliable, secure, and scalable web environments for high-traffic media platforms."
-        },
-        {
-            "time": "09-2015 - 01-2016",
-            "city": "Toronto, Ontario",
-            "country": "Canada",
-            "role": "WEB DEVELOPER",
-            "company": "ICFF",
-            "website": "https://icff.ca/",
-            "logo": "/images/icff.svg",
-            "description": "Web Development Apprentice at the Italian Contemporary Film Festival (ICFF) in Toronto, supporting the festival’s digital presence and operations.",
-            "responsibilities": [
-                "Provided website maintenance and updates for key festival platforms, including the main ICFF website and the L'Altra Italia blog.",
-                "Ensured smooth operation of front-end interfaces, making updates to improve user experience and keep content relevant for festival audiences."
-            ],
-            "tech_stack": {
-                "Stack": "LAMP",
-                "Markup": "HTML",
-                "PHP": "WordPress, Vanilla",
-                "JavaScript": "Vanilla, jQuery",
-                "Databases": "MySQL",
-                "Design": "Adobe, Boostrap, Responsive Design, SCSS"
-            },
-            "key_skills": "Website maintenance, front-end optimization, content updates, and troubleshooting for dynamic, event-driven sites in a high-profile cultural setting."
+            "key_skills": "Recent Computational Linguistics graduate with strong foundation in NLP, machine learning, and project coordination. Effectively combines technical understanding with project management capabilities."
         }
     ],
     "education": [
         {
-            "institute": "georgian",
-            "time": "09-2013 - 03-2016",
-            "city": "Barrie, Ontario",
-            "country": "Canada",
-            "degree": "Computer Programming and Analysis",
-            "school": "Georgian College (Laurentian University)",
+            "institute": "Università Cattolica del Sacro Cuore",
+            "time": "Settembre 2015 - Luglio 2019",
+            "city": "Milano",
+            "country": "Italia",
+            "degree": "Lingue per le relazioni internazionali",
+            "school": "Università Cattolica del Sacro Cuore",
             "description": "",
-            "website": "https://www.georgiancollege.ca/",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Georgian_College_logo.svg"
+            "website": "https://www.unicatt.it/",
+            "logo": "https://www.unicatt.it/content/dam/siti-web/unicatt/it/logo-unicatt.svg"
         },
         {
-            "institute": "unica",
-            "time": "09-2001 - 05-2009",
-            "city": "Cagliari, Sardegna",
-            "country": "Italy",
-            "degree": "Bachelor of Law",
-            "school": "Università degli studi di Cagliari",
+            "institute": "University of Stuttgart",
+            "time": "2023 - 2025",
+            "city": "Stuttgart",
+            "country": "Germany",
+            "degree": "MSC of Computational linguistics - Computer science",
+            "school": "University of Stuttgart",
             "description": "",
-            "website": "https://www.unica.it/it",
-            "logo": "/images/unica.svg"
+            "website": "https://www.uni-stuttgart.de/en/",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Uni_stuttgart_logo.svg"
         }
     ],
     "summary": {
         "image": "/images/profile.jpg",
-        "email": "marco@tech-paw.com",
-        "name": "Marco Maffei",
-        "job": "Senior Full-Stack Developer",
-        "address": "88 Avenue Albert, 1190 Forest, Bruxelles, Belgium",
-        "phone-be": "+32471553623",
-        "phone-it": "+393926449095",
-        "website": "https://www.tech-paw.com",
-        "logo": "https://techpawdev-gpcx6wyews.live-website.com/wp-content/themes/isabeltheme/assets/svgs/tech-paw-purple-2.svg",
-        "portfolio": "https://www.tech-paw.com/about-me/#projects",
-        "e-cv": "https://www.tech-paw.com/about-me/#experience",
+        "email": "fangalasso@gmail.com",
+        "name": "Gloria Galasso",
+        "job": "Junior Integration AI Developer",
+        "address": "Vischerstraße 2,70563 Stuttgart, Germany",
+        "phones": [
+            {
+                "country": "Italy",
+                "number": "+393518385749",
+                "flag": "🇮🇹"
+            }
+        ],
+        "website": "",
+        "logo": "",
+        "portfolio": "",
+        "e-cv": "",
         "social": {
-            "linkedin": "https://www.linkedin.com/in/marco-maffei-ninja-io/",
-            "github": "https://github.com/orso081980",
-            "twitter": "https://x.com/MarcoMaffei3"
+            "linkedin": "https://www.linkedin.com/in/gloria-g-923657221/",
+            "github": "https://github.com/gloriagalasso"
         },
-        "description": "Experienced Full-Stack Developer (active since 2016) and Founder/CEO (Tech Paw, 2023) with a proven track record in building, maintaining, and scaling robust digital solutions driving business growth. Expertise spans PHP (Laravel, Symfony, WordPress), JavaScript (Vue, React, Node.js, Nuxt.js), Python, SQL/NoSQL databases (MySQL, MongoDB), and cloud platforms (AWS, GCP). Skilled in designing and implementing complex REST/SOAP APIs, integrating diverse Customer Relationship Management systems (HubSpot, Dynamics), and optimizing workflows using Git/GitLab, Jira, and Monday.com. Progressed from internal team member to trusted external consultant at Isabel Group, Belgium’s leading FinTech, over a 4.5-year collaboration. Passionate about architecting scalable, secure systems, leveraging data for informed decisions, and leading technical projects to successful completion, achieving measurable improvements in efficiency and user experience. Specialized in architecting scalable and secure systems, leading cross-functional technical projects, and leveraging data to drive measurable improvements in performance, efficiency, and user experience."
+        "description": "With a solid academic foundation in international linguistics and European studies from Università Cattolica del Sacro Cuore, followed by a cutting-edge Master's in Computational Linguistics from the University of Stuttgart, I bring a unique blend of cultural insight and technical expertise to language technology projects. My role as Project Coordinator at Gopa.com allows me to bridge the gap between linguistic theory and practical NLP applications, coordinating diverse teams across borders and disciplines. I thrive in multilingual environments, leveraging my background to facilitate communication, streamline workflows, and ensure the successful delivery of innovative AI-driven solutions in the European context."
     },
     "skills": {
-        "Programming Languages": "PHP, JavaScript (ES6), Python, Typescript",
-        "Stack": "LAMP, JAM, MEVN, MERN",
-        "Back-end (PHP)": "Laravel, Symfony, CodeIgniter",
-        "Back-end (JS)": "Node.js, Express.js, Nuxt.js, Next.js",
-        "Front-end": "Vue.js, React.js, Angular.js, jQuery, Blade, Twig",
-        "Databases": "MySQL, MongoDB, PostgreSQL, SQLite",
-        "Web Servers": "Apache, Nginx",
-        "Content Management Systems": ", WordPress (Themes/Plugin/Core), Drupal, ExpressionEngine, DatoCMS, Strapi.js, October CMS, Django",
-        "Customer Relationship Management platforms": "HubSpot (API/Admin), Mautic, Microsoft Dynamics 365",
-        "Cloud/DevOps": "AWS (EC2, S3, Cloudfront), GCP, Linux (Apache/Nginx), Git/GitLab, Docker, Shared Hosting, VPS, SSH, s(FTP)",
-        "Tools & APIs": "Webpack, Vite, Grunt, Jira, Monday.com, Slack, Google Analytics, Matomo, REST, SOAP, JSON, XML, AJAX",
-        "Concepts": "Object-Oriented Programming, Functional Programming, MVC Architecture, API, Scalable System Design",
-        "UI/Layout": "Adobe, Figma, Bootstrap, Tailwind, Responsive Design, SCSS/CSS",
+        "Programming Languages": "Python, R",
+        "Databases": "MySQL, MongoDB, NoSql",
+        "Customer Relationship Management platforms": "Hubspot",
+        "Concepts": "LLM, Deep Learning, Machine Learning, Natural Language Processing",
         "Markup": "HTML, Markdown"
     },
     "Awards_and_Certifications": [
         {
-            "institute": "adobe",
-            "title": "Adobe InDesign Certificate",
-            "issuer": "Adobe Training Toronto",
-            "date": "April 2018",
-            "details":""
-        },
-        {
-            "institute": "georgian",
-            "title": "Lassosoft Web Development Award",
-            "issuer": "Georgian College",
-            "date": "April 2015",
-            "details":""
-        },
-        {
-            "institute": "georgian",
-            "title": "Dean's List",
-            "issuer": "Georgian College",
-            "date": "Jan 2015 - Apr 2015",
-            "details":""
-        },
-        {
-            "institute": "british-council",
-            "title": "IELTS",
-            "issuer": "British Council",
-            "type": "Academic",
-            "overall-score": 7.0,
-            "date": "Dec 2018",
-            "details": ""
+            "institute": "University of Kent",
+            "title": "Scholarship",
+            "issuer": "University of Kent",
+            "date": "January 2019",
+            "details":"Scholarship"
         }
     ],
     "Languages": [
@@ -262,29 +97,30 @@
         },
         {
             "language": "English",
-            "proficiency": "Fluent (C1)"
+            "proficiency": "Native (C2)"
         },
         {
             "language": "French",
-            "proficiency": "Beginner (A2)"
+            "proficiency": "Intermediate (B1)"
         },
         {
-            "language": "Dutch",
-            "proficiency": "Basic (A1)"
+            "language": "German",
+            "proficiency": "Basic (B2)"
         }
     ],
     "Community_Involvement": [
         {
-            "role": "Mentor",
-            "organization": "Canada Learning Code (formerly Ladies Learning Code)",
-            "website": "https://canadalearningcode.ca/",
-            "logo": "https://www.canadalearningcode.ca/wp-content/uploads/clc-logo-1.svg",
-            "city": "Barrie/Toronto, ON",
-            "country":"Canada",
-            "period": "April 2015 – April 2017",
+            "role": "Rappresentante",
+            "organization": "IMS",
+            "website": "https://www.ims.uni-stuttgart.de/",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Uni_stuttgart_logo.svg",
+            "city": "Stuttgart",
+            "country":"Germany",
+            "period": "October 2023 – Current",
             "activities": [
-                "Volunteered as a mentor for multiple workshops, guiding participants through web development fundamentals (HTML, CSS, JavaScript, PHP, WordPress).",
-                "Assisted learners in building their first web projects, fostering an inclusive and supportive learning environment."
+                "Assisted new students with academic integration and orientation",
+                "Provided guidance on course selection and academic requirements",
+                "Organized social and networking events for international students"
             ]
         }
     ]

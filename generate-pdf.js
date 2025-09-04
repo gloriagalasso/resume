@@ -8,7 +8,7 @@ const path = require("path");
   try {
     // Start HTTP server
     console.log("Starting HTTP server...");
-    serverProcess = spawn("http-server", [".", "-p", "8080"], {
+    serverProcess = spawn("./node_modules/.bin/http-server", [".", "-p", "8080"], {
       cwd: __dirname,
       stdio: "pipe",
     });
