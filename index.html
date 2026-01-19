@@ -31,6 +31,87 @@
             border: 2px solid #fff;
             box-shadow: 0 0 0 2px #000;
         }
+
+        /* Print-specific styles for PDF generation */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                background: white !important;
+            }
+
+            #app {
+                max-width: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+            }
+
+            .bg-gray-100 {
+                background: white !important;
+            }
+
+            .bg-gray-50 {
+                background: #f9fafb !important;
+            }
+
+            /* Adjust spacing for print */
+            .px-12 {
+                padding-left: 1.5rem !important;
+                padding-right: 1.5rem !important;
+            }
+
+            .py-10 {
+                padding-top: 1.5rem !important;
+                padding-bottom: 1.5rem !important;
+            }
+
+            .px-8 {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+
+            .px-10 {
+                padding-left: 1.25rem !important;
+                padding-right: 1.25rem !important;
+            }
+
+            /* Reduce font sizes for print */
+            .text-5xl {
+                font-size: 2.25rem !important;
+            }
+
+            .text-sm {
+                font-size: 0.75rem !important;
+            }
+
+            .text-xs {
+                font-size: 0.65rem !important;
+            }
+
+            /* Ensure content doesn't break awkwardly */
+            .subsection-item,
+            .mb-10 {
+                page-break-inside: avoid;
+            }
+
+            /* Adjust margins for better spacing */
+            .mb-8 {
+                margin-bottom: 1rem !important;
+            }
+
+            .mb-10 {
+                margin-bottom: 1.25rem !important;
+            }
+
+            .space-y-6>*+* {
+                margin-top: 1rem !important;
+            }
+
+            .space-y-4>*+* {
+                margin-top: 0.75rem !important;
+            }
+        }
     </style>
 </head>
 
@@ -152,12 +233,10 @@
                 <div class="mb-10">
                     <h2 class="section-title">ABOUT ME</h2>
                     <p class="text-sm text-gray-700 leading-relaxed">
-                        Computational Linguistics graduate student with expertise in NLP, deep learning, and speech
-                        processing. Passionate about applying AI and machine learning to solve real-world problems in
-                        healthcare and communication. Experienced in developing models for Alzheimer's detection, speech
-                        enhancement, and multilingual NLP systems. Strong background in European public affairs and
-                        international development, bringing a unique interdisciplinary perspective to technical
-                        projects.
+                        Computational Linguistics master’s student specializing in NLP, acoustic modeling, and
+                        explainability. My goal is to contribute to accessible, clinically grounded tools for early
+                        disease detection. My interdisciplinary training in language, communication, and social sciences
+                        shapes my approach to modeling human expression.
                     </p>
                 </div>
 
