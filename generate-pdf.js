@@ -64,14 +64,9 @@ const path = require("path");
     console.log("Generating PDF...");
     await page.pdf({
       path: pdfFilePath,
-      format: "A4",
+      format: "A3",
       printBackground: true,
-      margin: {
-        top: "10mm",
-        bottom: "10mm",
-        left: "10mm",
-        right: "10mm",
-      },
+      margin: {},
     });
     console.log(`✅ PDF generated successfully at: ${pdfFilePath}`);
     console.log(`📄 Source: ${htmlFile}`);
