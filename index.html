@@ -48,26 +48,28 @@
                     </div>
                 </div>
                 <div class="text-right space-y-2 text-sm">
-                    <div class="flex items-center justify-end gap-2">
+                    <div class="flex items-center justify-end gap-3">
                         <span
-                            class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center text-red-600 text-xs">
+                            class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center text-red-600 text-xs flex-shrink-0">
                             <i class="fas fa-map-marker-alt"></i>
                         </span>
-                        <span>Stuttgart, Germany</span>
+                        <span class="contact-text w-48 text-left">Stuttgart, Germany</span>
                     </div>
-                    <div class="flex items-center justify-end gap-2">
+                    <div class="flex items-center justify-end gap-3">
                         <span
-                            class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center text-red-600 text-xs">
+                            class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center text-red-600 text-xs flex-shrink-0">
                             <i class="fas fa-phone"></i>
                         </span>
-                        <span><a href="tel:{{ summary.phone }}">{{ summary.phone }}</a></span>
+                        <span class="contact-text w-48 text-left"><a href="tel:{{ summary.phone }}"
+                                class="hover:underline">{{ summary.phone }}</a></span>
                     </div>
-                    <div class="flex items-center justify-end gap-2">
+                    <div class="flex items-center justify-end gap-3">
                         <span
-                            class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center text-red-600 text-xs">
+                            class="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center text-red-600 text-xs flex-shrink-0">
                             <i class="fas fa-envelope"></i>
                         </span>
-                        <span><a href="mailto:{{ summary.email }}">{{ summary.email }}</a></span>
+                        <span class="contact-text w-48 text-left"><a href="mailto:{{ summary.email }}"
+                                class="hover:underline break-all">{{ summary.email }}</a></span>
                     </div>
                 </div>
             </div>
@@ -160,6 +162,25 @@
                     </p>
                 </div>
 
+                <!-- Education -->
+                <div class="mb-10">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <div class="space-y-6">
+                        <div v-for="edu in education" :key="edu.degree" class="relative pl-6">
+                            <span class="timeline-dot absolute left-0 top-1"></span>
+                            <div class="flex justify-between items-start mb-1">
+                                <h3 class="font-bold text-sm uppercase">{{ edu.degree }}</h3>
+                                <span class="text-xs text-gray-600">{{ edu.time }}</span>
+                            </div>
+                            <p class="text-sm font-semibold text-gray-700 mb-2">{{ edu.school }}, {{ edu.location }}</p>
+                            <p v-if="edu.grade" class="text-xs text-gray-600 mb-2">{{ edu.grade }}</p>
+                            <div v-if="edu.details" class="text-xs text-gray-700 space-y-1">
+                                <p v-for="(detail, index) in edu.details" :key="index">• {{ detail }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Work Experience -->
                 <div class="mb-10">
                     <h2 class="section-title">WORK EXPERIENCE</h2>
@@ -178,25 +199,6 @@
                                     <span>{{ resp }}</span>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education -->
-                <div class="mb-10">
-                    <h2 class="section-title">EDUCATION</h2>
-                    <div class="space-y-6">
-                        <div v-for="edu in education" :key="edu.degree" class="relative pl-6">
-                            <span class="timeline-dot absolute left-0 top-1"></span>
-                            <div class="flex justify-between items-start mb-1">
-                                <h3 class="font-bold text-sm uppercase">{{ edu.degree }}</h3>
-                                <span class="text-xs text-gray-600">{{ edu.time }}</span>
-                            </div>
-                            <p class="text-sm font-semibold text-gray-700 mb-2">{{ edu.school }}, {{ edu.location }}</p>
-                            <p v-if="edu.grade" class="text-xs text-gray-600 mb-2">{{ edu.grade }}</p>
-                            <div v-if="edu.details" class="text-xs text-gray-700 space-y-1">
-                                <p v-for="(detail, index) in edu.details" :key="index">• {{ detail }}</p>
-                            </div>
                         </div>
                     </div>
                 </div>
