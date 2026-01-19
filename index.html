@@ -1,20 +1,272 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marco Maffei - CV</title>
+    <title>Gloria Galasso - CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body * {
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            margin-top: 32px;
+            color: #1f2937;
+        }
+
+        .subsection-item {
+            margin-bottom: 20px;
+            padding: 12px;
+            border-left: 3px solid #e5e7eb;
+            background: #f9fafb;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .subsection-item:hover {
+            border-left-color: #3b82f6;
+            background: #eff6ff;
+            transform: translateX(2px);
+        }
+
+        .subsection-item strong {
+            font-weight: 700;
+            color: #1f2937;
+        }
+
+        .text-content {
+            font-size: 17px;
+            line-height: 1.6;
+            color: #374151;
+        }
+
+        ul {
+            margin-top: 8px;
+            padding-left: 24px;
+        }
+
+        ul li {
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+
+        .linkedin-icon {
+            background: #0077b5;
+            color: white;
+        }
+
+        .linkedin-icon:hover {
+            background: #005885;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 119, 181, 0.3);
+        }
+
+        .github-icon {
+            background: #333;
+            color: white;
+        }
+
+        .github-icon:hover {
+            background: #24292e;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(51, 51, 51, 0.3);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+            border-color: #3b82f6;
         }
     </style>
-    <script src="https://kit.fontawesome.com/960a8c2498.js" crossorigin="anonymous"></script></head>
+</head>
 
-<body class="text-gray-800 font-sans leading-relaxed selection:bg-purple-300">
-    <div id="app" data-v-app=""><header class="p-6 pt-[0]"><div class="w-[90%] mx-auto grid md:grid-cols-2 gap-6 justify-items-center"><div class="flex flex-col w-full"><div class="flex"><img alt="Profile Picture" class="w-32 h-32 rounded-full object-cover mr-4" src="images/profile.jpg"><div><h1 class="text-3xl font-bold">Gloria Galasso</h1><h2 class="text-lg font-semibold mt-2">Junior Integration AI Developer</h2><p class="text-base mt-2">Vischerstraße 2,70563 Stuttgart, Germany</p><div class="flex space-x-4 mt-4"><a target="_blank" class="text-blue-500 hover:text-blue-700" href="https://www.linkedin.com/in/gloria-g-923657221/"><i class="fab fa-linkedin fa-1x" aria-hidden="true"></i></a><a target="_blank" class="text-gray-900 hover:text-fuchsia-900" href="https://github.com/gloriagalasso"><i class="fab fa-github fa-1x" aria-hidden="true"></i></a></div></div></div></div><div class="flex flex-col space-y-1"><h2 class="text-2xl font-bold pb-1">Contact</h2><p><strong>Phone: </strong><span class="mr-2">🇮🇹 <a href="tel:+393518385749" class="text-[#4e2df3] hover:underline">+393518385749</a></span></p><p><strong>Email:</strong> <a href="mailto:fangalasso@gmail.com" class="text-[#4e2df3] hover:underline">fangalasso@gmail.com</a></p><p><strong>LinkedIn:</strong> <a target="_blank" rel="noopener noreferrer" class="text-[#4e2df3] hover:underline" href="https://www.linkedin.com/in/gloria-g-923657221/">https://www.linkedin.com/in/gloria-g-923657221/</a></p><p><strong>Github:</strong> <a target="_blank" rel="noopener noreferrer" class="text-[#4e2df3] hover:underline" href="https://github.com/gloriagalasso">https://github.com/gloriagalasso</a></p><p></p></div></div></header><section id="summary" class="pb-6 pl-6 pr-6"><div class="w-[90%] mx-auto grid gap-6 items-center justify-items-center"><div class="flex flex-col space-y-2"><h2 class="text-2xl font-bold pb-2 border-b">Summary</h2><p>With a solid academic foundation in international linguistics and European studies from Università Cattolica del Sacro Cuore, followed by a cutting-edge Master's in Computational Linguistics from the University of Stuttgart, I bring a unique blend of cultural insight and technical expertise to language technology projects. My role as Project Coordinator at Gopa.com allows me to bridge the gap between linguistic theory and practical NLP applications, coordinating diverse teams across borders and disciplines. I thrive in multilingual environments, leveraging my background to facilitate communication, streamline workflows, and ensure the successful delivery of innovative AI-driven solutions in the European context.</p></div></div></section><section id="skills" class="pb-6 pl-6 pr-6"><div class="w-[90%] mx-auto"><h2 class="text-2xl font-bold border-b pb-2 mb-4">Skills</h2><ul class="list-disc pl-5 space-y-2"><li><strong>Programming Languages:</strong> Python, R</li><li><strong>Databases:</strong> MySQL, MongoDB, NoSql</li><li><strong>Customer Relationship Management platforms:</strong> Hubspot</li><li><strong>Concepts:</strong> LLM, Deep Learning, Machine Learning, Natural Language Processing</li><li><strong>Markup:</strong> HTML, Markdown</li></ul></div></section><section id="experience" class="bg-white pb-6 pl-6 pr-6"><div class="w-[90%] mx-auto"><h2 class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Work Experience</h2><div class="job space-y-2"><div class="flex justify-between items-center"><h3 class="text-xl font-semibold text-gray-800">Project coordinator at Gopa.com</h3><div class="p-2 rounded h-20 flex items-center justify-center"><img src="https://gopacom.eu/wp-content/themes/project/assets/img/svg/logo_tagline_black.svg" alt="Gopa.com" class="w-40"></div></div><p class="text-sm text-gray-600">Bruxelles, Belgium — 2025 - Present</p><p class="text-gray-700 text-sm"><a href="https://gopacom.eu/" class="italic text-[#4e2df3] hover:underline" target="_blank">https://gopacom.eu/</a></p><p class="text-gray-800 text-sm"></p><ul class="list-disc pl-5 space-y-1 text-sm text-gray-700"><li>Assist in coordinating cross-functional teams for language technology projects</li><li>Support the development and implementation of NLP solutions</li><li>Contribute to project documentation and technical specifications</li><li>Facilitate communication between technical teams and stakeholders</li><li>Monitor project timelines and deliverables</li><li>Prepare project status reports and presentations</li><li>Assist in resource allocation and schedule management</li></ul></div></div></section><section id="education" class="bg-white p-6"><div class="w-[90%] mx-auto"><h2 class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Education</h2><div class="flex items-start gap-4 bg-gray-50 rounded-lg p-4 mb-6 items-center"><img src="https://www.unicatt.it/content/dam/siti-web/unicatt/it/logo-unicatt.svg" alt="Logo" class="w-20 h-20 object-contain p-2 rounded"><div class="flex-1 pl-10"><h3 class="text-xl font-semibold text-gray-800">Lingue per le relazioni internazionali</h3><p class="text-gray-700"><strong><a href="https://www.unicatt.it/" target="_blank" rel="noopener noreferrer" class="text-[#5C6BC0] italic hover:underline">Università Cattolica del Sacro Cuore</a></strong></p><p class="text-sm text-gray-600">Milano Italia | Settembre 2015 - Luglio 2019</p><!--v-if--></div></div><div class="flex items-start gap-4 bg-gray-50 rounded-lg p-4 mb-6 items-center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Uni_stuttgart_logo.svg" alt="Logo" class="w-20 h-20 object-contain p-2 rounded"><div class="flex-1 pl-10"><h3 class="text-xl font-semibold text-gray-800">MSC of Computational linguistics - Computer science</h3><p class="text-gray-700"><strong><a href="https://www.uni-stuttgart.de/en/" target="_blank" rel="noopener noreferrer" class="text-[#5C6BC0] italic hover:underline">University of Stuttgart</a></strong></p><p class="text-sm text-gray-600">Stuttgart Germany | 2023 - 2025</p><!--v-if--></div></div></div></section><section id="awards" class="bg-white pb-6 pl-6 pr-6"><div class="w-[90%] mx-auto"><h2 class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Awards &amp; Certifications</h2><ul class="list-disc pl-5 space-y-2"><li>Scholarship <span> - University of Kent</span><span> (January 2019)</span></li></ul></div></section><section id="languages" class="bg-white pb-6 pl-6 pr-6"><div class="w-[90%] mx-auto"><h2 class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Languages</h2><ul class="list-disc pl-5 space-y-2"><li><strong>Italian:</strong> Native (C2)</li><li><strong>English:</strong> Native (C2)</li><li><strong>French:</strong> Intermediate (B1)</li><li><strong>German:</strong> Basic (B2)</li></ul></div></section><section id="community" class="bg-white pb-6 pl-6 pr-6"><div class="w-[90%] mx-auto"><h2 class="text-2xl font-bold text-gray-900 border-b pb-2 mb-4">Community Involvement</h2><div class="community-entry mb-6"><h3 class="text-xl font-semibold text-gray-800 mb-2">Rappresentante</h3><div class="flex items-center gap-6 bg-gray-50 p-4 mb-6 rounded-lg"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Uni_stuttgart_logo.svg" alt="Logo" class="w-20 h-20 object-contain p-2 rounded"><div class="flex-1"><p class="text-gray-700"><strong>IMS</strong></p><p class="text-[#4e2df3] hover:underline italic"><a href="https://www.ims.uni-stuttgart.de/" target="_blank" rel="noopener noreferrer">https://www.ims.uni-stuttgart.de/</a></p><p class="text-sm text-gray-600">Stuttgart, Germany | October 2023 – Current</p></div></div><ul class="list-disc pl-5 space-y-2 mt-2"><li>Assisted new students with academic integration and orientation</li><li>Provided guidance on course selection and academic requirements</li><li>Organized social and networking events for international students</li></ul></div></div></section></div>
+<body class="bg-white text-gray-900 text-content">
+    <div id="app" class="w-5/5 max-w-7xl mx-auto px-8 py-8">
+
+        <!-- Header -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold mb-3 text-gray-800">{{ summary.name }}</h1>
+            <img src="images/profile-2.jpg" alt="Gloria Galasso" class="profile-img mx-auto mb-4">
+            <div class="text-[18px] mb-4 text-gray-600">
+                <i class="far fa-envelope mr-2"></i> <a :href="'mailto:' + summary.email"
+                    class="hover:underline hover:text-blue-600">{{ summary.email }}</a>
+                <span class="mx-3">|</span>
+                <i class="fas fa-phone mr-2"></i> <a :href="'tel:' + summary.phone"
+                    class="hover:underline hover:text-blue-600">{{ summary.phone }}</a>
+            </div>
+            <div class="flex justify-center items-center">
+                <a :href="summary.linkedin" target="_blank" class="social-icon linkedin-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a :href="summary.github" target="_blank" class="social-icon github-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- Education -->
+        <section id="education" class="mb-8">
+            <h2 class="section-title border-b-2 border-gray-300 pb-2">EDUCATION</h2>
+            <div v-for="edu in education" :key="edu.degree" class="subsection-item">
+                <div class="flex justify-between items-baseline">
+                    <div class="flex-1">
+                        <strong>{{ edu.degree }}</strong>
+                        <div class="text-content italic">{{ edu.school }} – {{ edu.location }}</div>
+                    </div>
+                    <div class="text-right text-content">{{ edu.time }}</div>
+                </div>
+                <div v-if="edu.details" class="text-content mt-2">
+                    <div v-for="(detail, index) in edu.details" :key="index">{{ detail }}</div>
+                </div>
+                <div v-if="edu.grade" class="text-content mt-2">
+                    <em>{{ edu.grade }}</em>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section id="technical-skills" class="mb-8">
+            <h2 class="section-title border-b-2 border-gray-300 pb-2">TECHNICAL SKILLS</h2>
+            <ul class="list-none pl-0">
+                <li v-for="(value, key) in technical_skills" :key="key" class="mb-1 text-[15px]">
+                    <strong>{{ key }}:</strong> {{ value }}
+                </li>
+            </ul>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="work-experience" class="mb-8">
+            <h2 class="section-title border-b-2 border-gray-300 pb-2">WORK EXPERIENCE</h2>
+            <div v-for="job in work_experience" :key="job.role + job.company" class="subsection-item">
+                <div class="flex justify-between items-baseline mb-2">
+                    <div class="flex-1">
+                        <strong class="text-lg">{{ job.role }}</strong>
+                    </div>
+                    <div class="text-right text-content font-medium text-gray-600">{{ job.time }}</div>
+                </div>
+                <div class="text-content italic text-blue-600 mb-3 font-medium">{{ job.company }} – {{ job.location }}
+                </div>
+                <ul class="list-disc ml-4 space-y-2">
+                    <li v-for="(resp, index) in job.responsibilities" :key="index" class="text-gray-700">{{ resp }}</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Awards and Competitions -->
+        <section id="awards" class="mb-8">
+            <h2 class="section-title border-b-2 border-gray-300 pb-2">AWARDS AND COMPETITIONS</h2>
+            <div v-for="award in awards" :key="award.title" class="subsection-item">
+                <div class="flex justify-between items-baseline">
+                    <div class="flex-1">
+                        <strong>{{ award.title }}</strong>
+                    </div>
+                    <div class="text-right text-content">{{ award.year }}</div>
+                </div>
+                <div class="text-content italic">{{ award.institution }}</div>
+            </div>
+        </section>
+
+        <!-- Leadership -->
+        <section id="leadership" v-if="leadership && leadership.length > 0" class="mb-8">
+            <h2 class="section-title border-b-2 border-gray-300 pb-2">LEADERSHIP AND EXTRACURRICULAR EXPERIENCE</h2>
+            <div v-for="item in leadership" :key="item.role" class="subsection-item">
+                <div class="flex justify-between items-baseline">
+                    <div class="flex-1">
+                        <strong>{{ item.role }}</strong>
+                    </div>
+                    <div class="text-right text-content">{{ item.time }}</div>
+                </div>
+                <div class="text-content italic">{{ item.institution }} — {{ item.description }}</div>
+            </div>
+        </section>
+
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
-    
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    summary: {},
+                    education: [],
+                    technical_skills: {},
+                    work_experience: [],
+                    awards: [],
+                    leadership: [],
+                    fontFamily: 'Lato',
+                    fontUrl: ''
+                };
+            },
+            mounted() {
+                fetch('job.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        this.summary = {
+                            ...data.summary,
+                            linkedin: 'https://www.linkedin.com/in/gloria-g-923657221/',
+                            github: 'https://github.com/gloriagalasso'
+                        };
+                        this.education = data.education || [];
+                        this.technical_skills = data.technical_skills || {};
+                        this.work_experience = data.work_experience || [];
+                        this.awards = data.awards || [];
+                        this.leadership = data.leadership || [];
 
+                        // Load custom font if specified
+                        if (data.font) {
+                            this.fontFamily = data.font.family || 'Lato';
+                            this.fontUrl = data.font.googleFontsUrl || '';
+                            this.loadFont();
+                        }
+                    })
+                    .catch(error => console.error('Error fetching the JSON:', error));
+            },
+            methods: {
+                loadFont() {
+                    if (this.fontUrl) {
+                        const link = document.createElement('link');
+                        link.href = this.fontUrl;
+                        link.rel = 'stylesheet';
+                        document.head.appendChild(link);
 
-</body></html>
+                        // Update body font
+                        document.body.style.fontFamily = `'${this.fontFamily}', sans-serif`;
+                    }
+                }
+            }
+        });
+
+        app.mount('#app');
+    </script>
+</body>
+
+</html>

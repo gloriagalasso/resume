@@ -8,7 +8,7 @@ const path = require("path");
   try {
     // Start HTTP server
     console.log("Starting HTTP server...");
-    serverProcess = spawn("./node_modules/.bin/http-server", [".", "-p", "8080"], {
+    serverProcess = spawn("http-server", [".", "-p", "8081"], {
       cwd: __dirname,
       stdio: "pipe",
     });
@@ -17,7 +17,7 @@ const path = require("path");
     await new Promise((resolve) => {
       setTimeout(resolve, 3000); // Wait 3 seconds for server to start
     });
-    console.log("HTTP server started on port 8080");
+    console.log("HTTP server started on port 8081");
 
     // Launch Puppeteer
     console.log("Launching browser...");
@@ -26,14 +26,13 @@ const path = require("path");
     console.log("Browser launched successfully");
 
     // Load the HTML file from the local HTTP server
-    const url = "http://127.0.0.1:8080/html/cv-merge.html";
+    const url = "http://127.0.0.1:8081/index.html";
     console.log(`Loading URL: ${url}`);
     await page.goto(url, { waitUntil: "networkidle0" });
     console.log("Page loaded successfully");
 
-    // Define the paths for output files
+    // Define the path for output PDF
     const pdfFilePath = "cv.pdf";
-    const htmlFilePath = "index.html";
 
     // Generate the PDF
     console.log("Generating PDF...");
@@ -47,22 +46,6 @@ const path = require("path");
       },
     });
     console.log(`PDF generated successfully at: ${pdfFilePath}`);
-
-    // Generate standalone HTML file
-    console.log("Generating standalone HTML...");
-
-    // Read the job.json data
-    const jobData = await fs.readFile(path.join(__dirname, "job.json"), "utf8");
-
-    // Get the full HTML content from the page
-    const htmlContent = await page.content();
-
-    // Create a standalone HTML by embedding the JSON data
-    const standaloneHtml = htmlContent.replace(/fetch\('\.\.\/job\.json'\)/g, `Promise.resolve({ json: () => ${jobData} })`);
-
-    // Write the standalone HTML file
-    await fs.writeFile(htmlFilePath, standaloneHtml);
-    console.log(`Standalone HTML generated successfully at: ${htmlFilePath}`);
 
     // Close the browser
     await browser.close();
