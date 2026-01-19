@@ -12,7 +12,7 @@
         {
             "degree": "Master of Science in Computational Linguistics",
             "school": "University of Stuttgart",
-            "location": "Stuttgart, Germany",
+            "location": "Stuttgart, Germany 🇩🇪",
             "time": "10.2023 – present",
             "details": [
                 "Focus areas: Deep Learning for Speech & Text, Information Retrieval & Text Mining, Machine Translation, NLP, Team Lab (Inference project), Speech Signal Processing and Speech Enhancement (Infant cry classification), Text Technology (web scraping and data manipulation & storing), Cognitive Science, Eye-Tracking Acquisition & Analysis (Language model surprisal rate and syntactic disambiguation difficulty), Ethics & NLP",
@@ -22,40 +22,39 @@
         {
             "degree": "Executive Master in European Public Affairs and Communication (EPAC)",
             "school": "Institute for Higher Social Communication Studies (IHECS)",
-            "location": "Brussels, Belgium",
+            "location": "Brussels, Belgium 🇧🇪",
             "time": "10.2021 – 12.2022",
             "grade": "Distinction"
         },
         {
             "degree": "MA International Development with Human Rights Law",
             "school": "Brussels School of International Studies (BSIS), University of Kent",
-            "location": "Brussels, Belgium",
+            "location": "Brussels, Belgium 🇧🇪",
             "time": "09.2019 – 05.2022",
             "grade": "Merit"
         },
         {
             "degree": "BA Languages and International Relations",
             "school": "Catholic University of the Sacred Heart",
-            "location": "Milan, Italy",
+            "location": "Milan, Italy 🇮🇹",
             "time": "09.2015 – 07.2019",
             "grade": "110/110 cum Laude"
         }
     ],
     "technical_skills": {
         "Programming": "Python",
-        "Machine Learning & AI": "Deep Learning, Transformers, LLMs, Generative Models, Explainable AI (SHAP, Integrated Gradients)",
-        "Frameworks & Libraries": "PyTorch, TensorFlow, Keras, HuggingFace, Scikit-learn, NLTK, NumPy, SciPy",
+        "Machine Learning": "Deep Learning, Transformers, LLMs, Explainable AI (SHAP, Integrated Gradients)",
+        "Frameworks & Libraries": "PyTorch, TensorFlow, Scikit-learn, NLTK",
         "Speech & Signal Processing": "Praat, Librosa, MFCC, Mel-spectrogram analysis",
-        "Eye-Tracking & Experimental Tools": "OpenSesame, LLMs (reading-time & sentence surprisal calculations)",
-        "Databases": "SQL (MySQL, PostgreSQL), NoSQL (MongoDB)",
-        "Web & Data Formats": "JSON, XML, HTML, XSLT",
-        "Languages": "Italian (native), English (fluent / near-native), Spanish (advanced), French (advanced), German (intermediate)"
+        "Eye-Tracking & Experimental Tools": "OpenSesame",
+        "Databases": "SQL, NoSQL",
+        "Web & Data Formats": "JSON, XML"
     },
     "work_experience": [
         {
             "role": "Project Coordinator",
             "company": "GOPA Com.",
-            "location": "Brussels, Belgium",
+            "location": "Brussels, Belgium 🇧🇪",
             "time": "10.2022 – 04.2023",
             "responsibilities": [
                 "Coordinated the European Commission–funded online hackathon Open Sea Lab III (EMODnet), promoting digital innovation and data-driven collaboration.",
@@ -66,7 +65,7 @@
         {
             "role": "Project Manager",
             "company": "WONCA – The World Organisation of Family Doctors",
-            "location": "Brussels, Belgium",
+            "location": "Brussels, Belgium 🇧🇪",
             "time": "04.2022 – 07.2022",
             "responsibilities": [
                 "Led strategic planning to align organizational objectives with mission renewal in the field of primary care and family medicine.",
@@ -77,7 +76,7 @@
         {
             "role": "Policy and Event Assistant",
             "company": "European Platform for Rehabilitation (EPR)",
-            "location": "Brussels, Belgium",
+            "location": "Brussels, Belgium 🇧🇪",
             "time": "10.2020 – 01.2022",
             "responsibilities": [
                 "Tracked European social policy trends, developing expertise in systematic information monitoring and synthesis.",
@@ -88,24 +87,24 @@
     "awards": [
         {
             "title": "Merit Scholarship recipient (Essay: 'The World Today: From Globalisation to Deglobalisation')",
-            "institution": "University of Kent, UK",
+            "institution": "University of Kent, UK 🇬🇧",
             "year": "2019"
         },
         {
             "title": "Merit Scholarship recipient",
-            "institution": "Eastwest European Institute – Brussels, Belgium",
+            "institution": "Eastwest European Institute – Roma, Italy 🇮🇹",
             "year": "2019"
         },
         {
             "title": "Selected for the Erasmus Mobility Program Scholarship",
-            "institution": "Catholic University of Eichstätt–Ingolstadt, Germany",
+            "institution": "Catholic University of Eichstätt–Ingolstadt, Germany 🇩🇪",
             "year": "2017 – 2018"
         }
     ],
     "leadership": [
         {
             "role": "Student Representative, MSc Computational Linguistics",
-            "institution": "University of Stuttgart",
+            "institution": "University of Stuttgart 🇩🇪",
             "description": "Facilitated communication between students and faculty",
             "time": "2023 – 2024"
         }
