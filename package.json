@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "generate:letter-pdf": "npx ts-node generate-letter.ts",
     "generate:pdf": "node generate-pdf.js",
-    "generate:letter-pdf": "npx ts-node generate-letter.ts"
+    "generate:pdf:index": "node generate-pdf.js index.html",
+    "generate:pdf:test": "node generate-pdf.js test.html"
   },
   "keywords": [],
   "author": "",
