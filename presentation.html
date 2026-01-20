@@ -21,6 +21,13 @@
             font-size: 15px;
         }
 
+        /* ensure no visual border/shadow when exporting to PDF */
+        .container {
+            box-shadow: none !important;
+            border: none !important;
+            background: #ffffff;
+        }
+
         h1 {
             font-size: 28px;
             letter-spacing: -0.5px;
@@ -89,6 +96,14 @@
             text-align: left;
         }
 
+        /* extra breathing room for recipient block */
+        .intro-recipient {
+            margin-top: 2.5rem;
+            /* space above */
+            margin-bottom: 2.5rem;
+            /* space below */
+        }
+
         .signature {
             margin-top: 1.25rem;
         }
@@ -145,7 +160,7 @@
             </div>
         </header>
 
-        <section class="mb-4 text-sm">
+        <section class="mb-4 text-sm intro-recipient">
             <div class="font-medium"><span class="highlight">Michael Neumann</span></div>
             <div class="text-gray-700">Senior Research Scientist at <span class="highlight">Modality.AI</span></div>
         </section>
