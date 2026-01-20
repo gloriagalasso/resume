@@ -254,7 +254,10 @@
                             <p class="text-sm font-semibold text-gray-700 mb-2">{{ edu.school }}, {{ edu.location }}</p>
                             <p v-if="edu.grade" class="text-xs text-gray-600 mb-2">{{ edu.grade }}</p>
                             <div v-if="edu.details" class="text-xs text-gray-700 space-y-1">
-                                <p v-for="(detail, index) in edu.details" :key="index">• {{ detail }}</p>
+                                <div v-for="(detail, index) in edu.details" :key="index" class="flex gap-2">
+                                    <span>•</span>
+                                    <span v-html="sanitize(detail)"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -301,6 +304,7 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
     <script>
         const { createApp } = Vue;
@@ -360,6 +364,11 @@
                         // Update body font
                         document.body.style.fontFamily = `'${this.fontFamily}', sans-serif`;
                     }
+                }
+                ,
+                sanitize(html) {
+                    if (typeof DOMPurify !== 'undefined') return DOMPurify.sanitize(html);
+                    return html;
                 }
             }
         }).mount('#app');
