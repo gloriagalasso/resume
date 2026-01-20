@@ -43,7 +43,7 @@
     ],
     "technical_skills": {
         "Programming": "Python",
-        "Machine Learning": "Deep Learning, Transformers, LLMs, Explainable AI (SHAP, Integrated Gradients)",
+        "Machine Learning": "Speech-based Deep Learning, Transformers, Model Explainability (SHAP, Integrated Gradients)",
         "Frameworks & Libraries": "PyTorch, TensorFlow, Scikit-learn",
         "Speech & Signal Processing": "Praat, Librosa, MFCC, Mel-spectrogram analysis",
         "Eye-Tracking & Experimental Tools": "OpenSesame",
