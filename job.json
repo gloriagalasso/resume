@@ -43,9 +43,9 @@
     ],
     "technical_skills": {
         "Programming": "Python",
-        "Machine Learning": "Speech-based Deep Learning, Transformers, Model Explainability (SHAP)",
+        "Machine Learning": "Machine and Deep Learning, Transformers, Model Explainability (Integrated Gradients)",
         "Frameworks & Libraries": "PyTorch, Scikit-learn",
-        "Speech & Signal Processing": "Praat, Librosa, MFCC, Mel-spectrogram analysis",
+        "Speech & Signal Processing": "Praat, Librosa",
         "Eye-Tracking & Experimental Tools": "OpenSesame",
         "Databases": "SQL, NoSQL",
         "Web & Data Formats": "JSON, XML"
